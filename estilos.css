@@ -1,0 +1,23 @@
+
+body {
+    background-color: #eaf2f8;
+    color: #263238;
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+h1, h2, h3 {
+    color: #154360;
+}
+
+a {
+    color: #c0392b;
+}
+
+p {
+    line-height: 1.8;
+}
+
+nav li {
+    margin-bottom: 8px;
+}
