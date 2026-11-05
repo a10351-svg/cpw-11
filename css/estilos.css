@@ -28,3 +28,26 @@ nav li {
     margin-bottom: 16px;
     border-radius: 12px;
 }
+
+.cartoes-atividades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.cartoes-atividades .cartao {
+    box-sizing: border-box;
+    flex: 1 1 300px;
+    min-width: 0;
+    margin-bottom: 0;
+}
+
+.cartoes-atividades img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cartoes-atividades table {
+    width: 100%;
+    table-layout: fixed;
+}
