@@ -24,7 +24,7 @@ nav li {
 .cartao {
     background-color: #eef4fa;
     padding: 20px;
-    border: 2px solid #215a89;;;
+    border: 2px solid #215a89;
     margin-bottom: 16px;
     border-radius: 12px;
 }
@@ -50,4 +50,26 @@ nav li {
 .cartoes-atividades table {
     width: 100%;
     table-layout: fixed;
+}
+
+/* A4 - 01: Dar mais espaço à informação */
+
+.sessao {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.sessao-info {
+    flex: 2 1 200px;
+}
+
+.sessao-material {
+    flex: 1 1 200px;
+}
+
+.sessao-info,
+.sessao-material {
+    min-width: 0;
+    overflow-wrap: anywhere;
 }

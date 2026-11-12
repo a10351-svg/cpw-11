@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 24px;
+}
+
+.sessao-info,
+.sessao-material {
+    padding: 16px;
+    border: 1px solid #789;
+    background: #edf4fa;
+    outline: 1px solid #215a89;
+}
+
+.sessao {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+
+.sessao-info {
+    flex: 2 1 200px;
+}
+
+.sessao-material {
+    flex: 1 1 200px;
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 700px) {
+  .sessao {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .sessao-info,
+  .sessao-material {
+    flex-basis: auto;
+  }
+}
